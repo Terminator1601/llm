@@ -1,0 +1,547 @@
+2025-11-20 16:55:48,662 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 16:55:48,663 - extract - INFO - Extracting claims from text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 16:55:48,680 - extract - INFO - Extracted 1 claims
+2025-11-20 16:55:49,137 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 16:55:49,138 - extract - INFO - Extracting claims from text: I think the weather is nice today. The Earth's temperature has increased by 1.1 degrees Celsius sinc...
+2025-11-20 16:55:49,146 - extract - INFO - Extracted 3 claims
+2025-11-20 16:55:49,469 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 16:55:49,470 - extract - INFO - Extracting claims from text: Apple announced the iPhone 15 in September 2023. I believe it's a great phone....
+2025-11-20 16:55:49,476 - extract - INFO - Extracted 2 claims
+2025-11-20 16:55:49,815 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 16:55:49,815 - extract - INFO - Extracting claims from text: COVID-19 vaccines contain microchips for tracking people. This is absolutely true!...
+2025-11-20 16:55:49,822 - extract - INFO - Extracted 1 claims
+2025-11-20 16:56:26,807 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 16:56:26,807 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 16:56:26,807 - embed - WARNING - Vector store files not found at C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss or C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 16:56:26,807 - embed - INFO - Loading fact base from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\data\facts.csv
+2025-11-20 16:56:26,815 - embed - INFO - Loaded 30 facts from CSV
+2025-11-20 16:56:26,815 - embed - INFO - Adding 30 facts to vector store
+2025-11-20 16:56:26,815 - embed - INFO - Generating embeddings for 30 texts
+2025-11-20 16:56:27,363 - embed - INFO - Generated embeddings with shape: (30, 384)
+2025-11-20 16:56:27,363 - embed - INFO - Added 30 facts. Total facts: 30
+2025-11-20 16:56:27,364 - embed - INFO - Saving vector store to C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 16:56:27,366 - embed - INFO - Vector store saved successfully
+2025-11-20 16:56:27,370 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 16:56:27,723 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 16:56:30,396 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 16:56:30,396 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 16:56:30,397 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 16:56:30,424 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 16:56:30,425 - embed - INFO - Loaded existing vector store
+2025-11-20 16:56:30,425 - retrieval - INFO - FactRetriever initialized
+2025-11-20 16:56:30,425 - pipeline - ERROR - Failed to initialize pipeline: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-11-20 16:56:30,433 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 16:56:30,733 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 16:56:33,234 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 16:56:33,234 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 16:56:33,235 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 16:56:33,235 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 16:56:33,236 - embed - INFO - Loaded existing vector store
+2025-11-20 16:56:33,236 - retrieval - INFO - FactRetriever initialized
+2025-11-20 16:56:33,236 - pipeline - ERROR - Failed to initialize pipeline: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-11-20 16:56:33,246 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 16:56:33,707 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 16:56:36,666 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 16:56:36,666 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 16:56:36,666 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 16:56:36,667 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 16:56:36,667 - embed - INFO - Loaded existing vector store
+2025-11-20 16:56:36,667 - retrieval - INFO - FactRetriever initialized
+2025-11-20 16:56:36,668 - pipeline - ERROR - Failed to initialize pipeline: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-11-20 16:56:36,676 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 16:56:36,978 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 16:56:39,605 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 16:56:39,605 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 16:56:39,606 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 16:56:39,606 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 16:56:39,606 - embed - INFO - Loaded existing vector store
+2025-11-20 16:56:39,607 - retrieval - INFO - FactRetriever initialized
+2025-11-20 16:56:39,607 - pipeline - ERROR - Failed to initialize pipeline: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-11-20 16:56:39,616 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 16:56:39,923 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 16:56:42,452 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 16:56:42,453 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 16:56:42,453 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 16:56:42,454 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 16:56:42,454 - embed - INFO - Loaded existing vector store
+2025-11-20 16:56:42,454 - retrieval - INFO - FactRetriever initialized
+2025-11-20 16:56:42,454 - pipeline - ERROR - Failed to initialize pipeline: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-11-20 17:16:26,494 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 17:16:26,495 - extract - INFO - Extracting claims from text: The WHO declared COVID-19 a pandemic on March 11, 2020....
+2025-11-20 17:16:26,532 - extract - INFO - Extracted 1 claims
+2025-11-20 17:16:42,567 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 17:16:42,568 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 17:16:42,568 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 17:16:42,575 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 17:16:42,575 - embed - INFO - Loaded existing vector store
+2025-11-20 17:16:45,021 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 17:16:45,025 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 17:16:45,026 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 17:16:45,026 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 17:16:45,026 - embed - INFO - Loaded existing vector store
+2025-11-20 17:16:45,027 - retrieval - INFO - FactRetriever initialized
+2025-11-20 17:16:45,027 - retrieval - INFO - Retrieving similar facts for claim: COVID-19 pandemic...
+2025-11-20 17:16:45,027 - embed - INFO - Searching for similar facts to: COVID-19 pandemic...
+2025-11-20 17:16:45,027 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 17:16:45,960 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 17:16:45,963 - embed - INFO - Found 3 similar facts
+2025-11-20 17:16:45,963 - retrieval - INFO - Retrieved 3 relevant facts (filtered from 3)
+2025-11-20 17:17:23,953 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 17:17:24,408 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 17:17:39,078 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 17:17:39,079 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 17:17:39,079 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 17:17:39,080 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 17:17:39,080 - embed - INFO - Loaded existing vector store
+2025-11-20 17:17:39,081 - retrieval - INFO - FactRetriever initialized
+2025-11-20 17:17:39,081 - evaluate - ERROR - Failed to initialize OpenAI client: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-11-20 17:17:39,081 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 17:17:39,081 - pipeline - INFO - Starting fact verification for text: COVID-19 was declared a pandemic in March 2020...
+2025-11-20 17:17:39,082 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 17:17:39,082 - extract - INFO - Extracting claims from text: COVID-19 was declared a pandemic in March 2020...
+2025-11-20 17:17:39,089 - extract - INFO - Extracted 1 claims
+2025-11-20 17:17:39,090 - pipeline - INFO - Extracted 1 claims
+2025-11-20 17:17:39,090 - pipeline - INFO - Step 2.1: Processing claim: COVID-19 was declared a pandemic in March 2020...
+2025-11-20 17:17:39,090 - retrieval - INFO - Retrieving similar facts for claim: COVID-19 was declared a pandemic in March 2020...
+2025-11-20 17:17:39,090 - embed - INFO - Searching for similar facts to: COVID-19 was declared a pandemic in March 2020...
+2025-11-20 17:17:39,090 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 17:17:39,460 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 17:17:39,461 - embed - INFO - Found 5 similar facts
+2025-11-20 17:17:39,462 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 17:17:39,462 - evaluate - INFO - Evaluating claim: COVID-19 was declared a pandemic in March 2020...
+2025-11-20 17:17:39,462 - evaluate - ERROR - Error during LLM evaluation: No OpenAI client available - API key not set
+2025-11-20 17:17:39,462 - pipeline - INFO - Fact verification completed in 0.38s
+2025-11-20 17:39:13,111 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 17:39:13,628 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 17:39:17,378 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 17:39:17,378 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 17:39:17,378 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 17:39:17,391 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 17:39:17,391 - embed - INFO - Loaded existing vector store
+2025-11-20 17:39:17,391 - retrieval - INFO - FactRetriever initialized
+2025-11-20 17:39:17,391 - evaluate - ERROR - Failed to initialize OpenAI client: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-11-20 17:39:17,400 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 17:39:49,754 - pipeline - INFO - Starting fact verification for text: is covid 19 deadly
+...
+2025-11-20 17:39:49,754 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 17:39:49,755 - extract - INFO - Extracting claims from text: is covid 19 deadly
+...
+2025-11-20 17:39:49,812 - extract - INFO - Extracted 1 claims
+2025-11-20 17:39:49,813 - pipeline - INFO - Extracted 1 claims
+2025-11-20 17:39:49,813 - pipeline - INFO - Step 2.1: Processing claim: is covid 19 deadly...
+2025-11-20 17:39:49,813 - retrieval - INFO - Retrieving similar facts for claim: is covid 19 deadly...
+2025-11-20 17:39:49,814 - embed - INFO - Searching for similar facts to: is covid 19 deadly...
+2025-11-20 17:39:49,814 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 17:39:50,543 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 17:39:50,546 - embed - INFO - Found 5 similar facts
+2025-11-20 17:39:50,546 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 17:39:50,546 - evaluate - INFO - Evaluating claim: is covid 19 deadly...
+2025-11-20 17:39:50,546 - evaluate - ERROR - Error during LLM evaluation: No OpenAI client available - API key not set
+2025-11-20 17:39:50,547 - pipeline - INFO - Fact verification completed in 0.79s
+2025-11-20 17:42:12,508 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 17:42:12,921 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 17:42:27,468 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 17:42:27,468 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 17:42:27,468 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 17:42:27,469 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 17:42:27,469 - embed - INFO - Loaded existing vector store
+2025-11-20 17:42:27,469 - retrieval - INFO - FactRetriever initialized
+2025-11-20 17:42:27,469 - evaluate - ERROR - Failed to initialize OpenAI client: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-11-20 17:42:27,469 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 17:42:27,469 - pipeline - INFO - Starting fact verification for text: Apple announced the iPhone 15 in September 2023...
+2025-11-20 17:42:27,469 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 17:42:27,469 - extract - INFO - Extracting claims from text: Apple announced the iPhone 15 in September 2023...
+2025-11-20 17:42:27,476 - extract - INFO - Extracted 1 claims
+2025-11-20 17:42:27,476 - pipeline - INFO - Extracted 1 claims
+2025-11-20 17:42:27,476 - pipeline - INFO - Step 2.1: Processing claim: Apple announced the iPhone 15 in September 2023...
+2025-11-20 17:42:27,476 - retrieval - INFO - Retrieving similar facts for claim: Apple announced the iPhone 15 in September 2023...
+2025-11-20 17:42:27,476 - embed - INFO - Searching for similar facts to: Apple announced the iPhone 15 in September 2023...
+2025-11-20 17:42:27,476 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 17:42:27,886 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 17:42:27,887 - embed - INFO - Found 5 similar facts
+2025-11-20 17:42:27,888 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 17:42:27,888 - evaluate - INFO - Evaluating claim: Apple announced the iPhone 15 in September 2023...
+2025-11-20 17:42:27,888 - evaluate - ERROR - Error during LLM evaluation: No OpenAI client available - API key not set
+2025-11-20 17:42:27,888 - pipeline - INFO - Fact verification completed in 0.42s
+2025-11-20 17:42:48,332 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 17:42:48,740 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 17:42:52,157 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 17:42:52,158 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 17:42:52,158 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 17:42:52,159 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 17:42:52,159 - embed - INFO - Loaded existing vector store
+2025-11-20 17:42:52,159 - retrieval - INFO - FactRetriever initialized
+2025-11-20 17:42:52,160 - evaluate - ERROR - Failed to initialize OpenAI client: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-11-20 17:42:52,160 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 17:42:52,160 - pipeline - INFO - Starting fact verification for text: The Earth is flat according to modern science...
+2025-11-20 17:42:52,161 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 17:42:52,161 - extract - INFO - Extracting claims from text: The Earth is flat according to modern science...
+2025-11-20 17:42:52,170 - extract - INFO - Extracted 1 claims
+2025-11-20 17:42:52,171 - pipeline - INFO - Extracted 1 claims
+2025-11-20 17:42:52,171 - pipeline - INFO - Step 2.1: Processing claim: The Earth is flat according to modern science...
+2025-11-20 17:42:52,171 - retrieval - INFO - Retrieving similar facts for claim: The Earth is flat according to modern science...
+2025-11-20 17:42:52,172 - embed - INFO - Searching for similar facts to: The Earth is flat according to modern science...
+2025-11-20 17:42:52,172 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 17:42:52,582 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 17:42:52,582 - embed - INFO - Found 5 similar facts
+2025-11-20 17:42:52,583 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 17:42:52,583 - evaluate - INFO - Evaluating claim: The Earth is flat according to modern science...
+2025-11-20 17:42:52,584 - evaluate - ERROR - Error during LLM evaluation: No OpenAI client available - API key not set
+2025-11-20 17:42:52,584 - pipeline - INFO - Fact verification completed in 0.42s
+2025-11-20 17:45:13,178 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 17:45:13,594 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 17:45:27,833 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 17:45:27,834 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 17:45:27,835 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 17:45:27,836 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 17:45:27,836 - embed - INFO - Loaded existing vector store
+2025-11-20 17:45:27,836 - retrieval - INFO - FactRetriever initialized
+2025-11-20 17:45:27,836 - evaluate - INFO - LLM evaluator initialized with model: gpt-3.5-turbo
+2025-11-20 17:45:27,836 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 17:45:27,836 - pipeline - INFO - Starting fact verification for text: The Earth is flat...
+2025-11-20 17:45:27,837 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 17:45:27,837 - extract - INFO - Extracting claims from text: The Earth is flat...
+2025-11-20 17:45:27,846 - extract - INFO - Extracted 1 claims
+2025-11-20 17:45:27,846 - pipeline - INFO - Extracted 1 claims
+2025-11-20 17:45:27,846 - pipeline - INFO - Step 2.1: Processing claim: The Earth is flat...
+2025-11-20 17:45:27,846 - retrieval - INFO - Retrieving similar facts for claim: The Earth is flat...
+2025-11-20 17:45:27,847 - embed - INFO - Searching for similar facts to: The Earth is flat...
+2025-11-20 17:45:27,847 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 17:45:28,447 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 17:45:28,448 - embed - INFO - Found 5 similar facts
+2025-11-20 17:45:28,449 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 17:45:28,449 - evaluate - INFO - Evaluating claim: The Earth is flat...
+2025-11-20 17:45:34,075 - evaluate - INFO - Evaluation completed: False
+2025-11-20 17:45:34,076 - pipeline - INFO - Fact verification completed in 6.24s
+2025-11-20 17:45:49,185 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 17:45:49,601 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 17:45:52,928 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 17:45:52,929 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 17:45:52,929 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 17:45:52,930 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 17:45:52,931 - embed - INFO - Loaded existing vector store
+2025-11-20 17:45:52,931 - retrieval - INFO - FactRetriever initialized
+2025-11-20 17:45:52,931 - evaluate - INFO - LLM evaluator initialized with model: gpt-3.5-turbo
+2025-11-20 17:45:52,931 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 17:45:52,931 - pipeline - INFO - Starting fact verification for text: Water boils at 100C and the Moon is made of cheese...
+2025-11-20 17:45:52,931 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 17:45:52,931 - extract - INFO - Extracting claims from text: Water boils at 100C and the Moon is made of cheese...
+2025-11-20 17:45:52,941 - extract - INFO - Extracted 1 claims
+2025-11-20 17:45:52,941 - pipeline - INFO - Extracted 1 claims
+2025-11-20 17:45:52,941 - pipeline - INFO - Step 2.1: Processing claim: Water boils at 100C and the Moon is made of cheese...
+2025-11-20 17:45:52,941 - retrieval - INFO - Retrieving similar facts for claim: Water boils at 100C and the Moon is made of cheese...
+2025-11-20 17:45:52,942 - embed - INFO - Searching for similar facts to: Water boils at 100C and the Moon is made of cheese...
+2025-11-20 17:45:52,942 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 17:45:53,579 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 17:45:53,580 - embed - INFO - Found 5 similar facts
+2025-11-20 17:45:53,580 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 17:45:53,581 - evaluate - INFO - Evaluating claim: Water boils at 100C and the Moon is made of cheese...
+2025-11-20 17:46:07,344 - evaluate - INFO - Evaluation completed: False
+2025-11-20 17:46:07,344 - pipeline - INFO - Fact verification completed in 14.41s
+2025-11-20 17:46:58,465 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 17:46:58,999 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 17:47:13,454 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 17:47:13,454 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 17:47:13,454 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 17:47:13,463 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 17:47:13,463 - embed - INFO - Loaded existing vector store
+2025-11-20 17:47:13,463 - retrieval - INFO - FactRetriever initialized
+2025-11-20 17:47:13,463 - evaluate - INFO - LLM evaluator initialized with model: gpt-3.5-turbo
+2025-11-20 17:47:13,463 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 17:47:26,940 - pipeline - INFO - Starting fact verification for text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 17:47:26,941 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 17:47:26,941 - extract - INFO - Extracting claims from text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 17:47:26,957 - extract - INFO - Extracted 1 claims
+2025-11-20 17:47:26,958 - pipeline - INFO - Extracted 1 claims
+2025-11-20 17:47:26,958 - pipeline - INFO - Step 2.1: Processing claim: The Indian government has announced free electrici...
+2025-11-20 17:47:26,958 - retrieval - INFO - Retrieving similar facts for claim: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 17:47:26,958 - embed - INFO - Searching for similar facts to: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 17:47:26,959 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 17:47:27,438 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 17:47:27,439 - embed - INFO - Found 5 similar facts
+2025-11-20 17:47:27,439 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 17:47:27,440 - evaluate - INFO - Evaluating claim: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 17:47:30,370 - evaluate - INFO - Evaluation completed: Unverifiable
+2025-11-20 17:47:30,370 - pipeline - INFO - Fact verification completed in 3.43s
+2025-11-20 17:48:35,628 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 17:48:36,200 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 17:48:50,771 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 17:48:50,771 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 17:48:50,771 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 17:48:50,781 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 17:48:50,782 - embed - INFO - Loaded existing vector store
+2025-11-20 17:48:50,782 - retrieval - INFO - FactRetriever initialized
+2025-11-20 17:48:50,782 - evaluate - INFO - LLM evaluator initialized with model: gpt-3.5-turbo
+2025-11-20 17:48:50,783 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 18:03:43,013 - pipeline - INFO - Starting fact verification for text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 18:03:43,014 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 18:03:43,014 - extract - INFO - Extracting claims from text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 18:03:43,030 - extract - INFO - Extracted 1 claims
+2025-11-20 18:03:43,031 - pipeline - INFO - Extracted 1 claims
+2025-11-20 18:03:43,031 - pipeline - INFO - Step 2.1: Processing claim: The Indian government has announced free electrici...
+2025-11-20 18:03:43,031 - retrieval - INFO - Retrieving similar facts for claim: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 18:03:43,031 - embed - INFO - Searching for similar facts to: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 18:03:43,031 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 18:03:43,655 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 18:03:43,655 - embed - INFO - Found 5 similar facts
+2025-11-20 18:03:43,655 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 18:03:43,655 - evaluate - INFO - Evaluating claim: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 18:03:47,239 - evaluate - INFO - Evaluation completed: Unverifiable
+2025-11-20 18:03:47,239 - pipeline - INFO - Fact verification completed in 4.23s
+2025-11-20 18:48:10,473 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 18:48:10,856 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 18:48:14,255 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 18:48:14,255 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 18:48:14,256 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 18:48:14,266 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 18:48:14,266 - embed - INFO - Loaded existing vector store
+2025-11-20 18:48:14,266 - retrieval - INFO - FactRetriever initialized
+2025-11-20 18:48:14,266 - evaluate - INFO - LLM evaluator initialized with model: gpt-3.5-turbo
+2025-11-20 18:48:14,266 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 18:48:14,266 - pipeline - INFO - Starting fact verification for text: COVID-19 was declared a pandemic in March 2020...
+2025-11-20 18:48:14,267 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 18:48:14,267 - extract - INFO - Extracting claims from text: COVID-19 was declared a pandemic in March 2020...
+2025-11-20 18:48:14,273 - extract - INFO - Extracted 1 claims
+2025-11-20 18:48:14,273 - pipeline - INFO - Extracted 1 claims
+2025-11-20 18:48:14,273 - pipeline - INFO - Step 2.1: Processing claim: COVID-19 was declared a pandemic in March 2020...
+2025-11-20 18:48:14,274 - retrieval - INFO - Retrieving similar facts for claim: COVID-19 was declared a pandemic in March 2020...
+2025-11-20 18:48:14,274 - embed - INFO - Searching for similar facts to: COVID-19 was declared a pandemic in March 2020...
+2025-11-20 18:48:14,274 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 18:48:14,773 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 18:48:14,774 - embed - INFO - Found 5 similar facts
+2025-11-20 18:48:14,774 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 18:48:14,774 - evaluate - INFO - Evaluating claim: COVID-19 was declared a pandemic in March 2020...
+2025-11-20 18:48:16,871 - evaluate - INFO - Evaluation completed: True
+2025-11-20 18:48:16,872 - pipeline - INFO - Fact verification completed in 2.61s
+2025-11-20 20:48:50,509 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 20:48:50,988 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 20:49:06,561 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 20:49:06,561 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 20:49:06,567 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 20:49:06,571 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 20:49:06,571 - embed - INFO - Loaded existing vector store
+2025-11-20 20:49:06,571 - retrieval - INFO - FactRetriever initialized
+2025-11-20 20:49:06,571 - evaluate - INFO - LLM evaluator initialized with model: gpt-3.5-turbo
+2025-11-20 20:49:06,571 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 20:49:54,172 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 20:49:54,747 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 20:49:58,929 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 20:49:58,930 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 20:49:58,930 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 20:49:58,931 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 20:49:58,931 - embed - INFO - Loaded existing vector store
+2025-11-20 20:49:58,931 - retrieval - INFO - FactRetriever initialized
+2025-11-20 20:49:58,932 - evaluate - INFO - LLM evaluator initialized with model: gpt-3.5-turbo
+2025-11-20 20:49:58,932 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 20:50:29,039 - pipeline - INFO - Starting fact verification for text: donald trump died...
+2025-11-20 20:50:29,040 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 20:50:29,040 - extract - INFO - Extracting claims from text: donald trump died...
+2025-11-20 20:50:29,090 - extract - INFO - Extracted 1 claims
+2025-11-20 20:50:29,090 - pipeline - INFO - Extracted 1 claims
+2025-11-20 20:50:29,090 - pipeline - INFO - Step 2.1: Processing claim: donald trump died...
+2025-11-20 20:50:29,091 - retrieval - INFO - Retrieving similar facts for claim: donald trump died...
+2025-11-20 20:50:29,091 - embed - INFO - Searching for similar facts to: donald trump died...
+2025-11-20 20:50:29,091 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 20:50:29,956 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 20:50:29,959 - embed - INFO - Found 5 similar facts
+2025-11-20 20:50:29,960 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 20:50:29,960 - evaluate - INFO - Evaluating claim: donald trump died...
+2025-11-20 20:50:43,188 - evaluate - INFO - Evaluation completed: Unverifiable
+2025-11-20 20:50:43,188 - pipeline - INFO - Fact verification completed in 14.15s
+2025-11-20 20:53:47,823 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 20:53:48,378 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 20:53:52,400 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 20:53:52,400 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 20:53:52,400 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 20:53:52,403 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 20:53:52,403 - embed - INFO - Loaded existing vector store
+2025-11-20 20:53:52,403 - retrieval - INFO - FactRetriever initialized
+2025-11-20 20:53:52,403 - evaluate - INFO - LLM evaluator initialized with model: gpt-3.5-turbo
+2025-11-20 20:53:52,403 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 20:54:07,574 - pipeline - INFO - Starting fact verification for text: The population of Tokyo is over 13 million people....
+2025-11-20 20:54:07,575 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 20:54:07,575 - extract - INFO - Extracting claims from text: The population of Tokyo is over 13 million people....
+2025-11-20 20:54:07,591 - extract - INFO - Extracted 2 claims
+2025-11-20 20:54:07,592 - pipeline - INFO - Extracted 2 claims
+2025-11-20 20:54:07,592 - pipeline - INFO - Step 2.1: Processing claim: The population of Tokyo is over 13 million people...
+2025-11-20 20:54:07,592 - retrieval - INFO - Retrieving similar facts for claim: The population of Tokyo is over 13 million people...
+2025-11-20 20:54:07,592 - embed - INFO - Searching for similar facts to: The population of Tokyo is over 13 million people...
+2025-11-20 20:54:07,593 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 20:54:08,034 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 20:54:08,035 - embed - INFO - Found 5 similar facts
+2025-11-20 20:54:08,035 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 20:54:08,036 - evaluate - INFO - Evaluating claim: The population of Tokyo is over 13 million people...
+2025-11-20 20:54:21,320 - evaluate - INFO - Evaluation completed: True
+2025-11-20 20:54:21,321 - pipeline - INFO - Step 2.2: Processing claim: The population of Tokyo is over 13 million people....
+2025-11-20 20:54:21,321 - retrieval - INFO - Retrieving similar facts for claim: The population of Tokyo is over 13 million people....
+2025-11-20 20:54:21,321 - embed - INFO - Searching for similar facts to: The population of Tokyo is over 13 million people....
+2025-11-20 20:54:21,322 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 20:54:21,345 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 20:54:21,346 - embed - INFO - Found 5 similar facts
+2025-11-20 20:54:21,346 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 20:54:21,346 - evaluate - INFO - Evaluating claim: The population of Tokyo is over 13 million people....
+2025-11-20 20:54:24,009 - evaluate - INFO - Evaluation completed: True
+2025-11-20 20:54:24,009 - pipeline - INFO - Fact verification completed in 16.44s
+2025-11-20 20:57:04,518 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 20:57:04,981 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 20:57:09,075 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 20:57:09,075 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 20:57:09,077 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 20:57:09,077 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 20:57:09,078 - embed - INFO - Loaded existing vector store
+2025-11-20 20:57:09,078 - retrieval - INFO - FactRetriever initialized
+2025-11-20 20:57:09,078 - evaluate - INFO - LLM evaluator initialized with model: gpt-3.5-turbo
+2025-11-20 20:57:09,078 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 20:57:15,451 - pipeline - INFO - Starting fact verification for text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 20:57:15,451 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 20:57:15,451 - extract - INFO - Extracting claims from text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 20:57:15,467 - extract - INFO - Extracted 1 claims
+2025-11-20 20:57:15,467 - pipeline - INFO - Extracted 1 claims
+2025-11-20 20:57:15,467 - pipeline - INFO - Step 2.1: Processing claim: The Indian government has announced free electrici...
+2025-11-20 20:57:15,470 - retrieval - INFO - Retrieving similar facts for claim: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 20:57:15,470 - embed - INFO - Searching for similar facts to: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 20:57:15,470 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 20:57:15,973 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 20:57:15,975 - embed - INFO - Found 5 similar facts
+2025-11-20 20:57:15,976 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 20:57:15,976 - evaluate - INFO - Evaluating claim: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 20:57:29,735 - evaluate - INFO - Evaluation completed: Unverifiable
+2025-11-20 20:57:29,735 - pipeline - INFO - Fact verification completed in 14.28s
+2025-11-20 20:59:19,088 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 20:59:19,597 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 20:59:23,917 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 20:59:23,917 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 20:59:23,917 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 20:59:23,920 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 20:59:23,920 - embed - INFO - Loaded existing vector store
+2025-11-20 20:59:23,920 - retrieval - INFO - FactRetriever initialized
+2025-11-20 20:59:23,920 - evaluate - INFO - LLM evaluator initialized with model: gpt-3.5-turbo
+2025-11-20 20:59:23,920 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 20:59:51,312 - pipeline - INFO - Starting fact verification for text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 20:59:51,312 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 20:59:51,313 - extract - INFO - Extracting claims from text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 20:59:51,326 - extract - INFO - Extracted 1 claims
+2025-11-20 20:59:51,327 - pipeline - INFO - Extracted 1 claims
+2025-11-20 20:59:51,327 - pipeline - INFO - Step 2.1: Processing claim: The Indian government has announced free electrici...
+2025-11-20 20:59:51,327 - retrieval - INFO - Retrieving similar facts for claim: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 20:59:51,328 - embed - INFO - Searching for similar facts to: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 20:59:51,328 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 20:59:51,842 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 20:59:51,842 - embed - INFO - Found 5 similar facts
+2025-11-20 20:59:51,843 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 20:59:51,844 - evaluate - INFO - Evaluating claim: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 20:59:54,238 - evaluate - INFO - Evaluation completed: Unverifiable
+2025-11-20 20:59:54,238 - pipeline - INFO - Fact verification completed in 2.93s
+2025-11-20 21:00:36,419 - pipeline - INFO - Starting fact verification for text: The Earth's temperature has increased by 1.1 degrees Celsius since pre-industrial times....
+2025-11-20 21:00:36,421 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 21:00:36,421 - extract - INFO - Extracting claims from text: The Earth's temperature has increased by 1.1 degrees Celsius since pre-industrial times....
+2025-11-20 21:00:36,435 - extract - INFO - Extracted 2 claims
+2025-11-20 21:00:36,435 - pipeline - INFO - Extracted 2 claims
+2025-11-20 21:00:36,435 - pipeline - INFO - Step 2.1: Processing claim: The Earth's temperature has increased by 1...
+2025-11-20 21:00:36,436 - retrieval - INFO - Retrieving similar facts for claim: The Earth's temperature has increased by 1...
+2025-11-20 21:00:36,436 - embed - INFO - Searching for similar facts to: The Earth's temperature has increased by 1...
+2025-11-20 21:00:36,436 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 21:00:36,468 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 21:00:36,469 - embed - INFO - Found 5 similar facts
+2025-11-20 21:00:36,469 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 21:00:36,469 - evaluate - INFO - Evaluating claim: The Earth's temperature has increased by 1...
+2025-11-20 21:00:39,404 - evaluate - INFO - Evaluation completed: True
+2025-11-20 21:00:39,405 - pipeline - INFO - Step 2.2: Processing claim: 1 degrees Celsius since pre-industrial times...
+2025-11-20 21:00:39,405 - retrieval - INFO - Retrieving similar facts for claim: 1 degrees Celsius since pre-industrial times...
+2025-11-20 21:00:39,405 - embed - INFO - Searching for similar facts to: 1 degrees Celsius since pre-industrial times...
+2025-11-20 21:00:39,405 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 21:00:39,422 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 21:00:39,422 - embed - INFO - Found 5 similar facts
+2025-11-20 21:00:39,422 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 21:00:39,424 - evaluate - INFO - Evaluating claim: 1 degrees Celsius since pre-industrial times...
+2025-11-20 21:00:40,808 - evaluate - INFO - Evaluation completed: True
+2025-11-20 21:00:40,809 - pipeline - INFO - Fact verification completed in 4.39s
+2025-11-20 21:03:52,634 - pipeline - INFO - Initializing fact verification pipeline
+2025-11-20 21:03:53,154 - extract - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 21:03:57,393 - embed - INFO - Loaded embedding model: all-MiniLM-L6-v2
+2025-11-20 21:03:57,394 - embed - INFO - Initialized FAISS index with dimension 384
+2025-11-20 21:03:57,394 - embed - INFO - Loading vector store from C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_index.faiss and C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\embeddings\facts_metadata.json
+2025-11-20 21:03:57,394 - embed - INFO - Loaded 30 facts from vector store
+2025-11-20 21:03:57,394 - embed - INFO - Loaded existing vector store
+2025-11-20 21:03:57,394 - retrieval - INFO - FactRetriever initialized
+2025-11-20 21:03:57,394 - evaluate - INFO - LLM evaluator initialized with model: gpt-3.5-turbo
+2025-11-20 21:03:57,394 - pipeline - INFO - Pipeline initialization completed successfully
+2025-11-20 21:04:12,952 - pipeline - INFO - Starting fact verification for text: COVID-19 vaccines contain microchips for tracking people....
+2025-11-20 21:04:12,953 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 21:04:12,953 - extract - INFO - Extracting claims from text: COVID-19 vaccines contain microchips for tracking people....
+2025-11-20 21:04:12,971 - extract - INFO - Extracted 0 claims
+2025-11-20 21:04:12,971 - pipeline - WARNING - No claims extracted from input text
+2025-11-20 21:04:21,110 - pipeline - INFO - Starting fact verification for text: COVID-19 vaccines contain microchips for tracking people....
+2025-11-20 21:04:21,111 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 21:04:21,111 - extract - INFO - Extracting claims from text: COVID-19 vaccines contain microchips for tracking people....
+2025-11-20 21:04:21,120 - extract - INFO - Extracted 0 claims
+2025-11-20 21:04:21,120 - pipeline - WARNING - No claims extracted from input text
+2025-11-20 21:04:26,141 - pipeline - INFO - Starting fact verification for text: The population of Tokyo is over 13 million people....
+2025-11-20 21:04:26,141 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 21:04:26,141 - extract - INFO - Extracting claims from text: The population of Tokyo is over 13 million people....
+2025-11-20 21:04:26,149 - extract - INFO - Extracted 2 claims
+2025-11-20 21:04:26,149 - pipeline - INFO - Extracted 2 claims
+2025-11-20 21:04:26,149 - pipeline - INFO - Step 2.1: Processing claim: The population of Tokyo is over 13 million people...
+2025-11-20 21:04:26,149 - retrieval - INFO - Retrieving similar facts for claim: The population of Tokyo is over 13 million people...
+2025-11-20 21:04:26,149 - embed - INFO - Searching for similar facts to: The population of Tokyo is over 13 million people...
+2025-11-20 21:04:26,149 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 21:04:26,587 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 21:04:26,587 - embed - INFO - Found 5 similar facts
+2025-11-20 21:04:26,589 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 21:04:26,589 - evaluate - INFO - Evaluating claim: The population of Tokyo is over 13 million people...
+2025-11-20 21:04:39,710 - evaluate - INFO - Evaluation completed: True
+2025-11-20 21:04:39,711 - pipeline - INFO - Step 2.2: Processing claim: The population of Tokyo is over 13 million people....
+2025-11-20 21:04:39,711 - retrieval - INFO - Retrieving similar facts for claim: The population of Tokyo is over 13 million people....
+2025-11-20 21:04:39,711 - embed - INFO - Searching for similar facts to: The population of Tokyo is over 13 million people....
+2025-11-20 21:04:39,712 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 21:04:39,731 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 21:04:39,732 - embed - INFO - Found 5 similar facts
+2025-11-20 21:04:39,732 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 21:04:39,732 - evaluate - INFO - Evaluating claim: The population of Tokyo is over 13 million people....
+2025-11-20 21:04:41,811 - evaluate - INFO - Evaluation completed: True
+2025-11-20 21:04:41,811 - pipeline - INFO - Fact verification completed in 15.67s
+2025-11-20 21:04:57,170 - pipeline - INFO - Starting fact verification for text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 21:04:57,170 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 21:04:57,171 - extract - INFO - Extracting claims from text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 21:04:57,186 - extract - INFO - Extracted 1 claims
+2025-11-20 21:04:57,187 - pipeline - INFO - Extracted 1 claims
+2025-11-20 21:04:57,187 - pipeline - INFO - Step 2.1: Processing claim: The Indian government has announced free electrici...
+2025-11-20 21:04:57,187 - retrieval - INFO - Retrieving similar facts for claim: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 21:04:57,187 - embed - INFO - Searching for similar facts to: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 21:04:57,187 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 21:04:57,214 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 21:04:57,215 - embed - INFO - Found 5 similar facts
+2025-11-20 21:04:57,216 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 21:04:57,216 - evaluate - INFO - Evaluating claim: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 21:05:00,165 - evaluate - INFO - Evaluation completed: Unverifiable
+2025-11-20 21:05:00,167 - pipeline - INFO - Fact verification completed in 3.00s
+2025-11-20 21:05:28,808 - pipeline - INFO - Starting fact verification for text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 21:05:28,808 - pipeline - INFO - Step 1: Extracting claims
+2025-11-20 21:05:28,808 - extract - INFO - Extracting claims from text: The Indian government has announced free electricity to all farmers starting July 2025....
+2025-11-20 21:05:28,821 - extract - INFO - Extracted 1 claims
+2025-11-20 21:05:28,821 - pipeline - INFO - Extracted 1 claims
+2025-11-20 21:05:28,821 - pipeline - INFO - Step 2.1: Processing claim: The Indian government has announced free electrici...
+2025-11-20 21:05:28,822 - retrieval - INFO - Retrieving similar facts for claim: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 21:05:28,822 - embed - INFO - Searching for similar facts to: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 21:05:28,822 - embed - INFO - Generating embeddings for 1 texts
+2025-11-20 21:05:28,851 - embed - INFO - Generated embeddings with shape: (1, 384)
+2025-11-20 21:05:28,851 - embed - INFO - Found 5 similar facts
+2025-11-20 21:05:28,853 - retrieval - INFO - Retrieved 5 relevant facts (filtered from 5)
+2025-11-20 21:05:28,853 - evaluate - INFO - Evaluating claim: The Indian government has announced free electricity to all farmers starting July 2025...
+2025-11-20 21:05:32,354 - evaluate - INFO - Evaluation completed: Unverifiable
+2025-11-20 21:05:32,354 - pipeline - INFO - Fact verification completed in 3.55s
+2025-11-20 21:16:25,085 - __main__ - INFO - Setting up PIB data
+2025-11-20 21:16:25,092 - __main__ - INFO - Saved 10 PIB facts to C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\data\pib_facts.csv
+2025-11-20 21:16:25,093 - __main__ - INFO - PIB data setup complete. Saved to C:\Users\rishi\OneDrive\Desktop\New folder (3)\llm\data\pib_facts.csv
+2025-11-20 21:17:49,020 - __main__ - INFO - TextChunker initialized: 150-250 chars, 20 overlap
+2025-11-20 21:17:49,038 - __main__ - INFO - Chunked 30 facts into 30 chunks
+2025-11-20 21:17:49,042 - __main__ - INFO - Saved chunked facts to data\facts_chunked.csv
+2025-11-20 21:17:49,068 - __main__ - INFO - Chunked 10 facts into 10 chunks
+2025-11-20 21:17:49,072 - __main__ - INFO - Saved chunked PIB facts to data\pib_facts_chunked.csv
+2025-11-20 21:19:11,536 - __main__ - INFO - Loaded spaCy model: en_core_web_sm
+2025-11-20 21:19:11,536 - __main__ - INFO - Testing Vague Claim Detector...
+2025-11-20 21:19:11,650 - __main__ - INFO - Filtered vague claim: 'Some people think things are getting better.' (score: 0.66)
+2025-11-20 21:19:11,656 - __main__ - INFO - Filtered vague claim: 'There might be issues with various aspects of the system.' (score: 0.72)
+2025-11-20 21:19:11,663 - __main__ - INFO - Filtered vague claim: 'Certain factors could possibly influence the outcome.' (score: 0.72)
+2025-11-20 21:19:11,663 - __main__ - INFO - Filtered vague claim: '' (score: 1.00)
+2025-11-20 21:19:11,663 - __main__ - INFO - Filtered 4 vague claims from 9 total

@@ -1,0 +1,31 @@
+chunk_id,text,original_id,chunk_index,total_chunks,start_pos,end_pos,metadata,fact_text
+1_chunk_0,"The World Health Organization (WHO) declared COVID-19 a pandemic on March 11, 2020.",1,0,1,0,83,{},"The World Health Organization (WHO) declared COVID-19 a pandemic on March 11, 2020."
+2_chunk_0,"Apple announced the iPhone 15 series on September 12, 2023, featuring USB-C connectivity.",2,0,1,0,89,{},"Apple announced the iPhone 15 series on September 12, 2023, featuring USB-C connectivity."
+3_chunk_0,The global average temperature has increased by approximately 1.1 degrees Celsius since pre-industrial times according to NASA.,3,0,1,0,127,{},The global average temperature has increased by approximately 1.1 degrees Celsius since pre-industrial times according to NASA.
+4_chunk_0,"India's population surpassed China's in 2023, making it the world's most populous country.",4,0,1,0,90,{},"India's population surpassed China's in 2023, making it the world's most populous country."
+5_chunk_0,"The James Webb Space Telescope was launched on December 25, 2021, by NASA.",5,0,1,0,74,{},"The James Webb Space Telescope was launched on December 25, 2021, by NASA."
+6_chunk_0,"Bitcoin reached an all-time high of nearly $69,000 in November 2021.",6,0,1,0,68,{},"Bitcoin reached an all-time high of nearly $69,000 in November 2021."
+7_chunk_0,"The 2024 Summer Olympics were held in Paris, France from July 26 to August 11, 2024.",7,0,1,0,84,{},"The 2024 Summer Olympics were held in Paris, France from July 26 to August 11, 2024."
+8_chunk_0,SpaceX successfully launched its first crewed mission to the International Space Station in May 2020.,8,0,1,0,101,{},SpaceX successfully launched its first crewed mission to the International Space Station in May 2020.
+9_chunk_0,"The United Kingdom officially left the European Union on January 31, 2020.",9,0,1,0,74,{},"The United Kingdom officially left the European Union on January 31, 2020."
+10_chunk_0,"ChatGPT was released by OpenAI on November 30, 2022.",10,0,1,0,52,{},"ChatGPT was released by OpenAI on November 30, 2022."
+11_chunk_0,"The FIFA World Cup 2022 was held in Qatar from November 20 to December 18, 2022.",11,0,1,0,80,{},"The FIFA World Cup 2022 was held in Qatar from November 20 to December 18, 2022."
+12_chunk_0,Elon Musk acquired Twitter for approximately $44 billion in October 2022.,12,0,1,0,73,{},Elon Musk acquired Twitter for approximately $44 billion in October 2022.
+13_chunk_0,The global internet user count exceeded 5 billion people in 2022 according to ITU statistics.,13,0,1,0,93,{},The global internet user count exceeded 5 billion people in 2022 according to ITU statistics.
+14_chunk_0,COVID-19 vaccines do not contain microchips or tracking devices according to WHO and CDC.,14,0,1,0,89,{},COVID-19 vaccines do not contain microchips or tracking devices according to WHO and CDC.
+15_chunk_0,The Earth is approximately 4.54 billion years old based on scientific evidence.,15,0,1,0,79,{},The Earth is approximately 4.54 billion years old based on scientific evidence.
+16_chunk_0,"Mount Everest is 8,848.86 meters (29,031.7 feet) tall according to Nepal and China's joint survey.",16,0,1,0,98,{},"Mount Everest is 8,848.86 meters (29,031.7 feet) tall according to Nepal and China's joint survey."
+17_chunk_0,The human brain contains approximately 86 billion neurons according to neuroscience research.,17,0,1,0,93,{},The human brain contains approximately 86 billion neurons according to neuroscience research.
+18_chunk_0,"The speed of light in vacuum is exactly 299,792,458 meters per second.",18,0,1,0,70,{},"The speed of light in vacuum is exactly 299,792,458 meters per second."
+19_chunk_0,"The Great Wall of China is not visible from space with the naked eye, contrary to popular belief.",19,0,1,0,97,{},"The Great Wall of China is not visible from space with the naked eye, contrary to popular belief."
+20_chunk_0,Vaccines are safe and effective in preventing diseases according to extensive scientific research.,20,0,1,0,98,{},Vaccines are safe and effective in preventing diseases according to extensive scientific research.
+21_chunk_0,Climate change is primarily caused by human activities according to 97% of climate scientists.,21,0,1,0,94,{},Climate change is primarily caused by human activities according to 97% of climate scientists.
+22_chunk_0,The Amazon rainforest produces about 20% of the world's oxygen.,22,0,1,0,63,{},The Amazon rainforest produces about 20% of the world's oxygen.
+23_chunk_0,Water boils at 100 degrees Celsius (212 degrees Fahrenheit) at sea level atmospheric pressure.,23,0,1,0,94,{},Water boils at 100 degrees Celsius (212 degrees Fahrenheit) at sea level atmospheric pressure.
+24_chunk_0,The human body is approximately 60% water by weight in adults.,24,0,1,0,62,{},The human body is approximately 60% water by weight in adults.
+25_chunk_0,Antibiotics are effective against bacterial infections but not viral infections.,25,0,1,0,80,{},Antibiotics are effective against bacterial infections but not viral infections.
+26_chunk_0,The Moon is gradually moving away from Earth at about 3.8 centimeters per year.,26,0,1,0,79,{},The Moon is gradually moving away from Earth at about 3.8 centimeters per year.
+27_chunk_0,Smoking tobacco significantly increases the risk of cancer and heart disease.,27,0,1,0,77,{},Smoking tobacco significantly increases the risk of cancer and heart disease.
+28_chunk_0,Regular exercise reduces the risk of cardiovascular disease and improves mental health.,28,0,1,0,87,{},Regular exercise reduces the risk of cardiovascular disease and improves mental health.
+29_chunk_0,The Pacific Ocean is the largest and deepest ocean on Earth.,29,0,1,0,60,{},The Pacific Ocean is the largest and deepest ocean on Earth.
+30_chunk_0,DNA testing can determine biological relationships with over 99% accuracy.,30,0,1,0,74,{},DNA testing can determine biological relationships with over 99% accuracy.
